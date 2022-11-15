@@ -1,0 +1,64 @@
+/*MISC*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Courier New', Courier, monospace; }
+
+#container {
+  width: 1200px;
+  margin: 0px auto; }
+
+ul {
+  list-style: none; }
+
+a {
+  display: inline-block;
+  font-size: 1.6em;
+  text-decoration: none;
+  color: lightcyan; }
+
+ol, ul, dl {
+  margin-bottom: 0;
+  padding-left: o; }
+
+a:hover {
+  color: inherit; }
+
+img {
+  width: 100%; }
+
+p {
+  font-size: 1.6em; }
+
+/*PARTIALS*/
+/*PAGES*/
+header {
+  background-color: #e01e2b;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  display: flex; }
+  header img {
+    width: 150px; }
+
+.navbar__menu {
+  display: flex;
+  gap: 3rem; }
+
+.galery__th {
+  margin: 0 auto;
+  gap: 0;
+  padding: 0 auto; }
+
+.btn {
+  font-size: 2em;
+  font-weight: bold;
+  color: white; }
+
+/*MDIASQ*/

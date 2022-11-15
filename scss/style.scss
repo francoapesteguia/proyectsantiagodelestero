@@ -1,0 +1,20 @@
+/*MISC*/
+
+// @import './misc/mixins';
+@import './misc/normalize';
+
+/*PARTIALS*/
+
+@import './partials/header';
+@import './partials/footer';
+
+/*PAGES*/
+
+@import './pages/index';
+// @import './pages/contacto';
+// @import './pages/libreria';
+// @import './pages/productos';
+
+/*MDIASQ*/
+
+@import './misc/mediasq'
