@@ -47,17 +47,13 @@
         </nav>
     </header>
     <main>
-        <section id="galery">
+        <section class="galery">
             <div class="galery__th row" style="--bs-gutter-x: 0">
-            <div class="col">
-                <img src="./img/image__baile.png" alt="">
-            </div>
-            <div class="col">
-                <img src="./img/image__edificio2.jpg" alt="">
-            </div>
-            <div class="col">
-                <img src="./img/image_ccb.jpg" alt="">
-            </div>
+                <div class="galery__th--img col d-flex overflow-hidden">
+                        <img src="./img/image__baile.png" alt="">
+                        <img src="./img/image__edificio2.jpg" alt="">
+                        <img src="./img/image_ccb.jpg" alt="">
+                </div>
             </div>
         </section>
         <section class="bridge">
@@ -66,11 +62,11 @@
                     Santiago, Tierra de encuentros.
                 </h1>
                 <p>
-                    Veni a visitarnos y disfruta de un lugar diferente. <br> Toda la informacion en nuestras redes.
+                    Veni a visitar tierra de poetas y cantores <br> y disfruta de un lugar diferente.
                 </p>
             </article>
             <article class="bridge__img">
-                <img src="./img/puentecarretero.jpg" alt="">
+                <!-- <img src="./img/puentecarretero.jpg" alt=""> -->
             </article>
         </section>
         <section class="map">
@@ -175,6 +171,43 @@
         </section>
     </div>
     </main>
+    <footer>
+        <div class="container d-flex">
+            <div class="d-flex align-items-center">
+                <nav>
+                        <h2>Franco Apesteguia</h2>
+                    <a href="#">
+                        <img src="./img/icons8-whatsapp-48.png" alt=""></a>
+                    <a href="#">
+                        <img src="./img/logoli.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./img/logogithub.png" alt="">
+                    </a>
+                </nav>
+            </div>
+            <div>
+                <form class="form2">
+                    <h2>Contacto Directo</h2>
+                    <div class="form__container2">
+                        <div class="form__container2">
+                            <div class="form__group2">
+                                <input type="text" id="name2" class="form__input2" placeholder=" " required>
+                                <label for="name2" class="form__label2">Nombre</label>
+                                <span class="form__line"></span>
+                            </div>
+                        <div class="form__container2">
+                            <div class="form__group2">
+                                <input type="email" id="email2" class="form__input2" placeholder=" " required>
+                                <label for="email2" class="form__label2">Email</label>
+                                <span class="form__line"></span>
+                            </div>
+                        </div>
+                        <button type="submit" class="form__btn btn">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

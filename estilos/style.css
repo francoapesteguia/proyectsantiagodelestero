@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
 /*MISC*/
 * {
   margin: 0;
@@ -47,15 +48,25 @@ header {
   display: flex;
   gap: 3rem; }
 
-.galery__th {
-  margin: 0 auto;
-  gap: 0;
-  padding: 0 auto; }
-
 .btn {
   font-size: 2em;
   font-weight: bold;
   color: white; }
+
+.galery__th {
+  text-align: center; }
+  .galery__th img {
+    object-fit: cover;
+    transition: .35s;
+    filter: grayscale(0);
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    text-align: center; }
+
+.galery__th img:hover {
+  filter: grayscale(1);
+  transition: all .3s ease-in; }
 
 .bridge {
   display: flex;
@@ -64,10 +75,15 @@ header {
   gap: 3rem;
   margin-top: 8rem; }
   .bridge__txt h1 {
-    font-weight: bold; }
+    font-weight: bold;
+    font-family: Dancing Script, sans-serif;
+    font-size: 5em; }
   .bridge__img {
-    width: 100%;
-    position: relative; }
+    background-image: url(../../img/puentecarretero.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px; }
 
 .map {
   background: #1E1E1E;
@@ -85,7 +101,8 @@ header {
   background: linear-gradient(90deg, #d40c0c 0%, white 25%, #7591fe 50%, white 75%, #d40c0c 100%);
   width: 100%;
   display: grid;
-  justify-content: space-around; }
+  justify-content: space-around;
+  padding-bottom: 3rem; }
 
 .dpto {
   display: flex;
@@ -189,5 +206,48 @@ header {
     font-weight: bold;
     padding-bottom: 3rem;
     margin-bottom: 10rem; }
+
+footer {
+  width: 100%;
+  background-color: #000000;
+  height: fit-content;
+  display: flex;
+  padding-top: 7rem;
+  padding-bottom: 3rem; }
+  footer h2 {
+    font-size: 2.5em;
+    color: #ffffff;
+    font-weight: 600; }
+
+.d-flex {
+  justify-content: space-evenly; }
+  .d-flex nav a {
+    width: 50px;
+    padding: .2rem; }
+
+.form2 {
+  gap: 1rem;
+  padding: 2rem 1rem;
+  border: none;
+  border-left: red 1px solid;
+  padding-left: 3rem; }
+  .form2 .form__container2 {
+    display: grid;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 1rem; }
+  .form2 .form__group2 .form__input2 {
+    width: 100%;
+    background: #1E1E1E;
+    color: #ffffff;
+    font-size: 1.6em;
+    padding: .6rem .3rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white; }
+  .form2 .form__group2 .form__label2 {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 2em; }
 
 /*MDIASQ*/
