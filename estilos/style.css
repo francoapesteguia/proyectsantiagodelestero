@@ -44,6 +44,9 @@ header {
   header img {
     width: 150px; }
 
+.btn {
+  border: none; }
+
 .navbar__menu {
   display: flex;
   gap: 3rem; }

@@ -10,6 +10,10 @@ header{
     }
 }
 
+.btn{
+    border: none;
+}
+
 .navbar{
     &__menu{
         display: flex;
