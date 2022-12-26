@@ -34,7 +34,6 @@ p {
   font-size: 1.6em; }
 
 /*PARTIALS*/
-/*PAGES*/
 header {
   background-color: #e01e2b;
   margin: 0 auto;
@@ -55,7 +54,10 @@ header {
   font-size: 2em;
   font-weight: bold;
   color: white; }
+  .btn a {
+    font-size: 1em; }
 
+/*PAGES*/
 .galery__th {
   text-align: center; }
   .galery__th img {
@@ -177,12 +179,15 @@ header {
     .form__group .form__area {
       background-color: #1E1E1E;
       font-size: 1.5em;
-      max-width: 300px;
+      max-width: 350px;
+      height: 200px;
       color: white; }
     .form__group .form__area:focus {
       box-shadow: 0 7px 10px -5px rgba(255, 255, 255, 0.315); }
-  .form__btn:hover {
-    color: #ccafb1;
+  .form .btn {
+    color: white; }
+  .form .btn:hover {
+    color: #b38689;
     scale: 1.1; }
 
 ::placeholder {
@@ -229,11 +234,21 @@ footer {
     padding: .2rem; }
 
 .form2 {
-  gap: 1rem;
   padding: 2rem 1rem;
   border: none;
   border-left: red 1px solid;
-  padding-left: 3rem; }
+  padding-left: 3rem;
+  width: 400px;
+  height: 506px;
+  background-color: #060505; }
+  .form2 .btn {
+    color: white !important;
+    width: 100%;
+    padding: 0;
+    margin: 0; }
+  .form2 .btn:hover {
+    color: #b38689;
+    scale: 1.1; }
   .form2 .form__container2 {
     display: grid;
     justify-content: center;
@@ -252,5 +267,90 @@ footer {
     display: inline-block;
     color: #ffffff;
     font-size: 2.0em; }
+
+#formulario {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 3rem;
+  width: 350px;
+  height: 400px;
+  background-color: rgba(36, 29, 80, 0.712);
+  padding-top: 2rem;
+  justify-content: space-evenly; }
+  #formulario input {
+    font-size: 1.5em;
+    border: none;
+    border-bottom: 1px solid white;
+    background: inherit;
+    color: white;
+    font-weight: bold;
+    padding: .5rem;
+    border-radius: 3px; }
+  #formulario select {
+    font-size: 1.5em;
+    padding: .5rem;
+    background: inherit;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    width: 200px; }
+
+::placeholder {
+  color: white;
+  background-color: transparent;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center; }
+
+.totales {
+  display: flex;
+  justify-content: space-evenly; }
+  .totales h5 {
+    font-size: 2em;
+    padding: 1rem;
+    font-weight: bold;
+    border-bottom: 1px solid red; }
+
+h2 {
+  text-align: center; }
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ac6c6c;
+  padding: 20px;
+  width: 700px;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 1.5em;
+  gap: 1rem; }
+
+form input::placeholder {
+  width: 15em;
+  margin: 3px;
+  height: 2em;
+  color: #6c757d; }
+
+form .btn {
+  margin: 2em 1em;
+  width: 60%;
+  height: 40px;
+  text-transform: uppercase;
+  color: #0e0909;
+  letter-spacing: 2px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer; }
+
+.container-data {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2em; }
+
+.container-data h6 {
+  text-align: center;
+  font-size: 2em; }
 
 /*MDIASQ*/

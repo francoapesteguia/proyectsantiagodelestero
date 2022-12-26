@@ -1,0 +1,107 @@
+#formulario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 3rem;
+    width: 350px;
+    height: 400px;
+    background-color: rgba(36, 29, 80, 0.712);
+    padding-top: 2rem;
+    justify-content: space-evenly;
+
+    input{
+        font-size: 1.5em;
+        border: none;
+        border-bottom: 1px solid white;
+        background:inherit;
+        color: white;
+        font-weight: bold;
+        padding: .5rem;
+        border-radius: 3px;
+    }
+    select{
+        font-size: 1.5em;
+        padding: .5rem;
+        background: inherit;
+        color: white;
+        font-weight: bold;
+        border-radius: 3px;
+        width: 200px;
+    }
+}
+
+::placeholder{
+    color: white;
+    background-color: transparent;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.totales{
+    display: flex;
+    justify-content: space-evenly;
+
+    h5{
+        font-size: 2em;
+        padding: 1rem;
+        font-weight: bold;
+        border-bottom: 1px solid red;
+    }
+}
+
+
+//pruebas
+
+
+
+h2 {
+    text-align: center;  
+}
+// .container{
+//     display: flex;
+// }
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ac6c6c;
+    padding: 20px;
+    width: 700px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 1.5em;
+    gap: 1rem;
+    }
+
+form input::placeholder {
+    width: 15em;
+    margin: 3px;
+    height: 2em;
+    color: #6c757d;
+}
+form .btn {
+    margin: 2em 1em;
+    width: 60%;
+    height: 40px;
+    text-transform: uppercase;
+    color: rgb(14, 9, 9);
+    letter-spacing: 2px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+.container-data {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+}
+
+.container-data h6 {
+    text-align: center;
+    font-size: 2em;
+}
