@@ -50,11 +50,15 @@ header {
   display: flex;
   gap: 3rem; }
 
-.btn {
+.btn2 {
   font-size: 2em;
   font-weight: bold;
-  color: white; }
-  .btn a {
+  color: white;
+  border: none;
+  background: none; }
+  .btn2:hover {
+    color: #343a40; }
+  .btn2 a {
     font-size: 1em; }
 
 /*PAGES*/
@@ -311,7 +315,7 @@ form .btn {
   text-transform: uppercase;
   color: #0e0909;
   letter-spacing: 2px;
-  border-radius: 20px;
+  border-radius: 5px;
   border: none;
   cursor: pointer; }
 
@@ -587,8 +591,8 @@ li label::before {
   border-radius: 4px;
   color: #258c72;
   content: '';
-  font-size: 2.3rem;
-  padding-top: 0.2em; }
+  font-size: 2.9rem;
+  padding-top: 0.8rem; }
 
 input[type="checkbox"],
 input[type="radio"] {
