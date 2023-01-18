@@ -606,4 +606,7 @@ li label::before {
   position: absolute;
   width: 30px; }
 
+.animation-container {
+  padding-bottom: 0 !important; }
+
 /*MDIASQ*/

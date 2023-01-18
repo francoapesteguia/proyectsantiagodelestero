@@ -1,26 +1,4 @@
-const formDatos = document.querySelector("#form"),
-    nameInput = document.querySelector("#name"),
-    emailInput= document.querySelector("#email");
-
-formDatos.addEventListener("submit", (e)=> {
-    e.preventDefault();
-
-    Swal.fire({
-        position: 'top-end',
-        icon: 'success',
-        title: `¡Su consulta fue enviada, ${nameInput.value}!`,
-        showConfirmButton: false,
-        timer: 3000,
-    })
-
-    formDatos.reset()
-})
-
-
-
-// Formulario y más
-
-// let $body = $('body');
+var $body = $('body');
 var $progressBar = $('progress');
 var $animContainer = $('.animation-container');
 var value = 0;
@@ -48,36 +26,19 @@ function formReset() {
 	return false;
 }
 
-/**
- * Sets up the click handlers on the form. Next/reset.
- * ===================================================
- */
-
-const formA = document.querySelector('#form1')
-formA.addEventListener('submit', (e) => {
-	e.preventDefault()
-
-	Swal.fire({
-        position: 'top-end',
-        icon: 'success',
-        title: `¡Su consulta fue enviada, ${nameInput.value}!`,
-        showConfirmButton: false,
-        timer: 3000,
-    })
-
-    formDatos.reset()
-})
 
 function setupClickHandlers() {
 
-	// Show next form on continue click
+	// Siguiente formulario
 	$('button[type="submit"]').on('click', function(e) {
 			e.preventDefault();
 			var $currentForm = $(this).parents('.js-form-step');
 			showNextForm($currentForm);
+
+            
 	});
 
-	// Reset form on reset button click
+	// Reset formulario
 	$('.js-reset').on('click', function() {
 		formReset();
 	});
@@ -86,8 +47,8 @@ function setupClickHandlers() {
 }
 
 /**
- * Shows the next form.
- * param - Node - The current form.
+ * mostrar el siguiente formulario
+ * 
  * ======================================
  */
 function showNextForm($currentForm) {
@@ -125,7 +86,7 @@ function showNextForm($currentForm) {
 
 	value += 25;
 
-	// Reset if we've reached the end
+	// Reiniciar al final
 	if (value >= 125) {
 		formReset();
 	} else {
