@@ -1,3 +1,3 @@
-[submodule "proyectsantiagodelestero"] 
-  path = proyectsantiagodelestero 
-  url = git://https://github.com/francoapesteguia/proyectsantiagodelestero/
+[submodule "PROYECTOSANTIAGO"]
+    path = PROYECTOSANTIAGO
+    url = https://github.com/francoapesteguia/proyectsantiagodelestero.git
