@@ -168,12 +168,13 @@ header {
       padding: .6rem .3rem;
       border: none;
       outline: none;
-      border-bottom: 1px solid white; }
+      border-bottom: 1px solid white;
+      margin-top: 1rem; }
     #form .form__group .form__input:focus {
       box-shadow: 1px 4px 6px -3px rgba(255, 255, 255, 0.315); }
     #form .form__group .form__input:focus + .form__label,
     #form .form__group .form__input:not(:placeholder-shown) + .form__label {
-      transform: translateY(-20px) scale(0.7);
+      transform: translateY(-10px) scale(0.7);
       transform-origin: left top; }
     #form .form__group .form__label {
       cursor: pointer;
@@ -355,8 +356,7 @@ h1 {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+    z-index: -1; }
 
 .form-instructions {
   text-align: center; }
@@ -460,7 +460,7 @@ input {
   display: inline-block;
   width: 100%;
   max-width: 220px;
-  margin: 4rem auto 0 auto; }
+  margin: 4rem 2rem 0 auto; }
 
 [data-step="5"] button.btn {
   display: block;
@@ -494,7 +494,7 @@ progress {
 
 .form-progress-indicator {
   position: absolute;
-  top: -6px;
+  top: -3px;
   left: 0;
   display: inline-block;
   width: 20px;

@@ -144,6 +144,7 @@
             border: none;
             outline: none;
             border-bottom: 1px solid rgb(255, 255, 255);
+            margin-top: 1rem;
         }
 
         .form__input:focus{
@@ -153,7 +154,7 @@
 
         .form__input:focus + .form__label,
         .form__input:not(:placeholder-shown) + .form__label{
-            transform: translateY(-20px) scale(.7);
+            transform: translateY(-10px) scale(.7);
             transform-origin: left top;
         }
         

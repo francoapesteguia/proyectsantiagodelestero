@@ -26,7 +26,6 @@ function formReset() {
 	return false;
 }
 
-
 function setupClickHandlers() {
 
 	// Siguiente formulario
@@ -34,15 +33,13 @@ function setupClickHandlers() {
 			e.preventDefault();
 			var $currentForm = $(this).parents('.js-form-step');
 			showNextForm($currentForm);
-
-            
 	});
 
 	// Reset formulario
 	$('.js-reset').on('click', function() {
 		formReset();
 	});
-	
+
 	return false;
 }
 
@@ -83,7 +80,6 @@ function showNextForm($currentForm) {
 		$nextForm.removeClass('coming waiting');
 		});
 
-
 	value += 25;
 
 	// Reiniciar al final
@@ -95,7 +91,7 @@ function showNextForm($currentForm) {
 			.next('.form-progress-indicator')
 			.addClass('active');
 
-		// Set progress bar to the next value
+	// Set progress bar to the next value
 		$progressBar.val(value);
 	}
 
@@ -142,7 +138,7 @@ function setupFloatLabels() {
 }
 
 /**
- * Gets the party started.
+ * Inicializar
  * =======================
  */
 function init() {
@@ -152,7 +148,3 @@ function init() {
 }
 
 init();
-
-
-let asd123 = "asd213"
-console.log(asd123);

@@ -51,17 +51,9 @@
     }
 }
 
-
-//pruebas
-
-
-
 h2 {
     text-align: center;  
 }
-// .container{
-//     display: flex;
-// }
 form {
     display: flex;
     flex-direction: column;
@@ -93,9 +85,6 @@ form .btn {
     cursor: pointer;
 }
 
-
-
-
 .container-data {
     display: flex;
     justify-content: space-around;
@@ -106,7 +95,6 @@ form .btn {
     text-align: center;
     font-size: 2em;
 }
-
 
 // Formulario
 
@@ -150,7 +138,6 @@ h1 {
 		top: 0;
 		left: 0;
 		z-index: -1;
-		border-bottom: 1px solid rgba(0,0,0,.2);
 	}
 }
 
@@ -304,7 +291,7 @@ input {
 	display: inline-block;
 	width: 100%;	
 	max-width: 220px;
-	margin: 4rem auto 0 auto;
+	margin: 4rem 2rem 0 auto;
 }
 
 [data-step="5"] button.btn {
@@ -349,7 +336,7 @@ progress {
 
 .form-progress-indicator {
 	position: absolute;
-	top: -6px;
+	top: -3px;
 	left: 0;
 	display: inline-block;
 	width: 20px;
@@ -361,7 +348,7 @@ progress {
 	transition-delay: .3s;
 	will-change: transform;
 	
-	&.one		{ left: 0; }
+	&.one	{ left: 0; }
 	&.two 	{ left: 25%; }
 	&.three { left: 50%; }	
 	&.four 	{ left: 75%; }	
@@ -447,7 +434,6 @@ progress {
 .hidden {
 	display: none;
 }
-
 
 #agree{
 	list-style:none;

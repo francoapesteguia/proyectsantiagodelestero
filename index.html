@@ -13,26 +13,26 @@
 <body>
     <header>
         <nav class="container navbar">
-            <a href="#">
-                <img src="./img/logosantiago.png" alt="">
+            <a href="../index.html">
+                <img src="../img/logosantiago.png" alt="1212">
             </a>
             <div class="navbar__menu">
                 <div>
                     <div class="dropdown">
-                        <button class="btn btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn2 dropdown-toggle" type="button" id="dropdownMenuButton btn2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         ¿Dónde ir?
                         </button>
                         <div class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">Estadio único Madre de Ciudades</a>
-                        <a class="dropdown-item" href="#">Patio del Indio Froilan</a>
-                        <a class="dropdown-item" href="#">Centro cultural del Bicentenario</a>
+                            <a class="dropdown-item" href="#">Estadio único Madre de Ciudades</a>
+                            <a class="dropdown-item" href="#">Patio del Indio Froilan</a>
+                            <a class="dropdown-item" href="#">Centro cultural del Bicentenario</a>
                         </div>
                     </div>
                 </div>
-                    <a href="./pages/paquetes.html" class="btn btn-lg">
-                        Paquetes
+                    <a href="./pages/paquetes.html" class="btn2">
+                        Encuesta
                     </a>
-                    <a class="btn btn-lg">
+                    <a href="https://www.google.com.ar/" class="btn2">
                         Ayuda
                     </a>
             </div>
@@ -97,32 +97,29 @@
                         </li>
                     </ul>
                 </div>
-            
-            
-            <form action="" id="form">
-                <h2 class="form__title">Solicita Ayuda</h2>
-                <p class="form__text">Envianos un mail con tu duda y te ayudaremos en lo que necesites</p>
-                <div class="form__container">
-                    <div class="form__group">
-                        <input name="name" type="text" id="name" class="form__input" value="" placeholder=" " required>
-                        <label for="name" class="form__label">Nombre</label>
-                        <span class="form__line"></span>
+                <form action="" id="form">
+                    <h2 class="form__title">Solicita Ayuda</h2>
+                    <p class="form__text">Envianos un mail con tu duda y te ayudaremos en lo que necesites</p>
+                    <div class="form__container">
+                        <div class="form__group">
+                            <input name="name" type="text" id="name" class="form__input" value="" placeholder=" " required>
+                            <label for="name" class="form__label">Nombre</label>
+                            <span class="form__line"></span>
+                        </div>
                     </div>
-                </div>
-                    <div class="form__group">
-                        <input name="email" type="email" id="email" class="form__input" placeholder=" " required>
-                        <label for="email" class="form__label">Email</label>
-                        <span class="form__line"></span>
-                    </div>
-                    <div class="form__group">
-                        <label for="mensaje" class="form__label2">Escribinos tu consulta</label>
-                        <textarea name="message" id="mensaje" class="form__area" cols="40" rows="10"></textarea>
-                        <span class="form__line"></span>
-                    </div>
-
-                <button type="submit" id="submit" class="form__btn btn">Enviar</button>
-            </form>
-        </article>
+                        <div class="form__group">
+                            <input name="email" type="email" id="email" class="form__input" placeholder=" " required>
+                            <label for="email" class="form__label">Email</label>
+                            <span class="form__line"></span>
+                        </div>
+                        <div class="form__group">
+                            <label for="mensaje" class="form__label2">Escribinos tu consulta</label>
+                            <textarea name="message" id="mensaje" class="form__area" cols="40" rows="10"></textarea>
+                            <span class="form__line"></span>
+                        </div>
+                    <button type="submit" id="submit" class="form__btn btn">Enviar</button>
+                </form>
+            </article>
         <article class="container dpto__list">
                 <h2>Departamentos</h2>
             <ul>
@@ -175,9 +172,10 @@
             </div>
         </div>
     </footer>
-
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>

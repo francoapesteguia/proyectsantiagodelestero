@@ -15,4 +15,3 @@ formDatos.addEventListener("submit", (e)=> {
 
     formDatos.reset()
 })
-
