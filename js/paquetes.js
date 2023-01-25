@@ -30,9 +30,9 @@ function setupClickHandlers() {
 
 	// Siguiente formulario
 	$('button[type="submit"]').on('click', function(e) {
-			e.preventDefault();
-			var $currentForm = $(this).parents('.js-form-step');
-			showNextForm($currentForm);
+		e.preventDefault();
+		var $currentForm = $(this).parents('.js-form-step');
+		showNextForm($currentForm);
 	});
 
 	// Reset formulario
